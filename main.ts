@@ -1,6 +1,8 @@
 // How Many Tabs Do You Have Open? — make.fun entry
 // Entry: exactly one number in digits. 137 — far above the field's guess,
 // believable for a real tab hoarder, hints at a life of unfinished reading.
+// Criteria order: real tab count, digits only, surprising, believable,
+// hints at a life behind it.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE = "137";
